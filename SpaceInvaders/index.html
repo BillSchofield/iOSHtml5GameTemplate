@@ -1,0 +1,33 @@
+<!doctype html> 
+<html lang="en"> 
+ <head> 
+  <meta charset="utf-8"> 
+  <title></title> 
+  <style>
+  * { margin: auto; padding: 0; }
+  
+  canvas {  border: 1px solid silver; }
+  </style> 
+
+        <script type="text/javascript" src="jquery.min.js"></script>
+      <script type="text/javascript" src="invaders.js"></script>
+
+ </head>
+ 
+ <body>
+  <div id="wrap">
+
+    <h1>Space Invaders</h1> 
+    <p> Left, Right to move</p>
+    <p>Space to fire</p>
+    <p>Or, use your mouse</p>
+    <p>Esc pauses</p>
+
+    <canvas id="view" width="800" height="1200" scale></canvas>
+    <audio id="shoot" preload="true" src="./sfx/shoot.wav"></audio>
+    <audio id="kill"  preload="true" src="./sfx/invaderkilled.wav"></audio>
+    
+  </div>
+
+ </body> 
+</html> 

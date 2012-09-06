@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D66D84D315F7ED7400F1F037 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D66D84D215F7ED7400F1F037 /* UIKit.framework */; };
+		D66D84D515F7ED7400F1F037 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D66D84D415F7ED7400F1F037 /* Foundation.framework */; };
+		D66D84D715F7ED7400F1F037 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D66D84D615F7ED7400F1F037 /* CoreGraphics.framework */; };
+		D66D84DD15F7ED7400F1F037 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D66D84DB15F7ED7400F1F037 /* InfoPlist.strings */; };
+		D66D84DF15F7ED7400F1F037 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D66D84DE15F7ED7400F1F037 /* main.m */; };
+		D66D84E315F7ED7400F1F037 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D66D84E215F7ED7400F1F037 /* AppDelegate.m */; };
+		D66D84E615F7ED7400F1F037 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D66D84E415F7ED7400F1F037 /* MainStoryboard_iPhone.storyboard */; };
+		D66D84E915F7ED7400F1F037 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D66D84E715F7ED7400F1F037 /* MainStoryboard_iPad.storyboard */; };
+		D66D84EC15F7ED7400F1F037 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D66D84EB15F7ED7400F1F037 /* ViewController.m */; };
+		D66D84F415F7ED7400F1F037 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D66D84F315F7ED7400F1F037 /* SenTestingKit.framework */; };
+		D66D84F515F7ED7400F1F037 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D66D84D215F7ED7400F1F037 /* UIKit.framework */; };
+		D66D84F615F7ED7400F1F037 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D66D84D415F7ED7400F1F037 /* Foundation.framework */; };
+		D66D84FE15F7ED7400F1F037 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D66D84FC15F7ED7400F1F037 /* InfoPlist.strings */; };
+		D66D850115F7ED7400F1F037 /* SpaceInvadersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D66D850015F7ED7400F1F037 /* SpaceInvadersTests.m */; };
+		D66D851015F8193200F1F037 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = D66D850B15F8193200F1F037 /* index.html */; };
+		D66D851D15F823CE00F1F037 /* test.js in Resources */ = {isa = PBXBuildFile; fileRef = D66D851915F821E800F1F037 /* test.js */; };
+		D66D851E15F823DA00F1F037 /* jquery.min.js in Resources */ = {isa = PBXBuildFile; fileRef = D66D851815F821E800F1F037 /* jquery.min.js */; };
+		D66D851F15F823E000F1F037 /* invaders.js in Resources */ = {isa = PBXBuildFile; fileRef = D66D851715F821E800F1F037 /* invaders.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D66D84F715F7ED7400F1F037 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D66D84C515F7ED7400F1F037 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D66D84CD15F7ED7400F1F037;
+			remoteInfo = SpaceInvaders;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D66D84CE15F7ED7400F1F037 /* SpaceInvaders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceInvaders.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D66D84D215F7ED7400F1F037 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D66D84D415F7ED7400F1F037 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D66D84D615F7ED7400F1F037 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D66D84DA15F7ED7400F1F037 /* SpaceInvaders-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpaceInvaders-Info.plist"; sourceTree = "<group>"; };
+		D66D84DC15F7ED7400F1F037 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D66D84DE15F7ED7400F1F037 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D66D84E015F7ED7400F1F037 /* SpaceInvaders-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpaceInvaders-Prefix.pch"; sourceTree = "<group>"; };
+		D66D84E115F7ED7400F1F037 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D66D84E215F7ED7400F1F037 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D66D84E515F7ED7400F1F037 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		D66D84E815F7ED7400F1F037 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		D66D84EA15F7ED7400F1F037 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D66D84EB15F7ED7400F1F037 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D66D84F215F7ED7400F1F037 /* SpaceInvadersTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceInvadersTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D66D84F315F7ED7400F1F037 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D66D84FB15F7ED7400F1F037 /* SpaceInvadersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpaceInvadersTests-Info.plist"; sourceTree = "<group>"; };
+		D66D84FD15F7ED7400F1F037 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D66D84FF15F7ED7400F1F037 /* SpaceInvadersTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpaceInvadersTests.h; sourceTree = "<group>"; };
+		D66D850015F7ED7400F1F037 /* SpaceInvadersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpaceInvadersTests.m; sourceTree = "<group>"; };
+		D66D850B15F8193200F1F037 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		D66D851715F821E800F1F037 /* invaders.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = invaders.js; sourceTree = "<group>"; };
+		D66D851815F821E800F1F037 /* jquery.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.min.js; sourceTree = "<group>"; };
+		D66D851915F821E800F1F037 /* test.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = test.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D66D84CB15F7ED7400F1F037 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66D84D315F7ED7400F1F037 /* UIKit.framework in Frameworks */,
+				D66D84D515F7ED7400F1F037 /* Foundation.framework in Frameworks */,
+				D66D84D715F7ED7400F1F037 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66D84EE15F7ED7400F1F037 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66D84F415F7ED7400F1F037 /* SenTestingKit.framework in Frameworks */,
+				D66D84F515F7ED7400F1F037 /* UIKit.framework in Frameworks */,
+				D66D84F615F7ED7400F1F037 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D66D84C315F7ED7400F1F037 = {
+			isa = PBXGroup;
+			children = (
+				D66D84D815F7ED7400F1F037 /* SpaceInvaders */,
+				D66D84F915F7ED7400F1F037 /* SpaceInvadersTests */,
+				D66D84D115F7ED7400F1F037 /* Frameworks */,
+				D66D84CF15F7ED7400F1F037 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D66D84CF15F7ED7400F1F037 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D66D84CE15F7ED7400F1F037 /* SpaceInvaders.app */,
+				D66D84F215F7ED7400F1F037 /* SpaceInvadersTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D66D84D115F7ED7400F1F037 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D66D84D215F7ED7400F1F037 /* UIKit.framework */,
+				D66D84D415F7ED7400F1F037 /* Foundation.framework */,
+				D66D84D615F7ED7400F1F037 /* CoreGraphics.framework */,
+				D66D84F315F7ED7400F1F037 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D66D84D815F7ED7400F1F037 /* SpaceInvaders */ = {
+			isa = PBXGroup;
+			children = (
+				D66D850A15F818A500F1F037 /* Resources */,
+				D66D84E115F7ED7400F1F037 /* AppDelegate.h */,
+				D66D84E215F7ED7400F1F037 /* AppDelegate.m */,
+				D66D84E415F7ED7400F1F037 /* MainStoryboard_iPhone.storyboard */,
+				D66D84E715F7ED7400F1F037 /* MainStoryboard_iPad.storyboard */,
+				D66D84EA15F7ED7400F1F037 /* ViewController.h */,
+				D66D84EB15F7ED7400F1F037 /* ViewController.m */,
+				D66D84D915F7ED7400F1F037 /* Supporting Files */,
+			);
+			path = SpaceInvaders;
+			sourceTree = "<group>";
+		};
+		D66D84D915F7ED7400F1F037 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D66D84DA15F7ED7400F1F037 /* SpaceInvaders-Info.plist */,
+				D66D84DB15F7ED7400F1F037 /* InfoPlist.strings */,
+				D66D84DE15F7ED7400F1F037 /* main.m */,
+				D66D84E015F7ED7400F1F037 /* SpaceInvaders-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D66D84F915F7ED7400F1F037 /* SpaceInvadersTests */ = {
+			isa = PBXGroup;
+			children = (
+				D66D84FF15F7ED7400F1F037 /* SpaceInvadersTests.h */,
+				D66D850015F7ED7400F1F037 /* SpaceInvadersTests.m */,
+				D66D84FA15F7ED7400F1F037 /* Supporting Files */,
+			);
+			path = SpaceInvadersTests;
+			sourceTree = "<group>";
+		};
+		D66D84FA15F7ED7400F1F037 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D66D84FB15F7ED7400F1F037 /* SpaceInvadersTests-Info.plist */,
+				D66D84FC15F7ED7400F1F037 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D66D850A15F818A500F1F037 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D66D851615F8204A00F1F037 /* htdocs */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D66D851615F8204A00F1F037 /* htdocs */ = {
+			isa = PBXGroup;
+			children = (
+				D66D851715F821E800F1F037 /* invaders.js */,
+				D66D851815F821E800F1F037 /* jquery.min.js */,
+				D66D851915F821E800F1F037 /* test.js */,
+				D66D850B15F8193200F1F037 /* index.html */,
+			);
+			name = htdocs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D66D84CD15F7ED7400F1F037 /* SpaceInvaders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D66D850415F7ED7400F1F037 /* Build configuration list for PBXNativeTarget "SpaceInvaders" */;
+			buildPhases = (
+				D66D84CA15F7ED7400F1F037 /* Sources */,
+				D66D84CB15F7ED7400F1F037 /* Frameworks */,
+				D66D84CC15F7ED7400F1F037 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpaceInvaders;
+			productName = SpaceInvaders;
+			productReference = D66D84CE15F7ED7400F1F037 /* SpaceInvaders.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D66D84F115F7ED7400F1F037 /* SpaceInvadersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D66D850715F7ED7400F1F037 /* Build configuration list for PBXNativeTarget "SpaceInvadersTests" */;
+			buildPhases = (
+				D66D84ED15F7ED7400F1F037 /* Sources */,
+				D66D84EE15F7ED7400F1F037 /* Frameworks */,
+				D66D84EF15F7ED7400F1F037 /* Resources */,
+				D66D84F015F7ED7400F1F037 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D66D84F815F7ED7400F1F037 /* PBXTargetDependency */,
+			);
+			name = SpaceInvadersTests;
+			productName = SpaceInvadersTests;
+			productReference = D66D84F215F7ED7400F1F037 /* SpaceInvadersTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D66D84C515F7ED7400F1F037 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = ThoughtWorks;
+			};
+			buildConfigurationList = D66D84C815F7ED7400F1F037 /* Build configuration list for PBXProject "SpaceInvaders" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D66D84C315F7ED7400F1F037;
+			productRefGroup = D66D84CF15F7ED7400F1F037 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D66D84CD15F7ED7400F1F037 /* SpaceInvaders */,
+				D66D84F115F7ED7400F1F037 /* SpaceInvadersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D66D84CC15F7ED7400F1F037 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66D851F15F823E000F1F037 /* invaders.js in Resources */,
+				D66D851E15F823DA00F1F037 /* jquery.min.js in Resources */,
+				D66D851D15F823CE00F1F037 /* test.js in Resources */,
+				D66D84DD15F7ED7400F1F037 /* InfoPlist.strings in Resources */,
+				D66D84E615F7ED7400F1F037 /* MainStoryboard_iPhone.storyboard in Resources */,
+				D66D84E915F7ED7400F1F037 /* MainStoryboard_iPad.storyboard in Resources */,
+				D66D851015F8193200F1F037 /* index.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66D84EF15F7ED7400F1F037 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66D84FE15F7ED7400F1F037 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D66D84F015F7ED7400F1F037 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D66D84CA15F7ED7400F1F037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66D84DF15F7ED7400F1F037 /* main.m in Sources */,
+				D66D84E315F7ED7400F1F037 /* AppDelegate.m in Sources */,
+				D66D84EC15F7ED7400F1F037 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66D84ED15F7ED7400F1F037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66D850115F7ED7400F1F037 /* SpaceInvadersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D66D84F815F7ED7400F1F037 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D66D84CD15F7ED7400F1F037 /* SpaceInvaders */;
+			targetProxy = D66D84F715F7ED7400F1F037 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D66D84DB15F7ED7400F1F037 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D66D84DC15F7ED7400F1F037 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D66D84E415F7ED7400F1F037 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D66D84E515F7ED7400F1F037 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D66D84E715F7ED7400F1F037 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D66D84E815F7ED7400F1F037 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		D66D84FC15F7ED7400F1F037 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D66D84FD15F7ED7400F1F037 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D66D850215F7ED7400F1F037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D66D850315F7ED7400F1F037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D66D850515F7ED7400F1F037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpaceInvaders/SpaceInvaders-Prefix.pch";
+				INFOPLIST_FILE = "SpaceInvaders/SpaceInvaders-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D66D850615F7ED7400F1F037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpaceInvaders/SpaceInvaders-Prefix.pch";
+				INFOPLIST_FILE = "SpaceInvaders/SpaceInvaders-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D66D850815F7ED7400F1F037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpaceInvaders.app/SpaceInvaders";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpaceInvaders/SpaceInvaders-Prefix.pch";
+				INFOPLIST_FILE = "SpaceInvadersTests/SpaceInvadersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D66D850915F7ED7400F1F037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpaceInvaders.app/SpaceInvaders";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpaceInvaders/SpaceInvaders-Prefix.pch";
+				INFOPLIST_FILE = "SpaceInvadersTests/SpaceInvadersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D66D84C815F7ED7400F1F037 /* Build configuration list for PBXProject "SpaceInvaders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D66D850215F7ED7400F1F037 /* Debug */,
+				D66D850315F7ED7400F1F037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D66D850415F7ED7400F1F037 /* Build configuration list for PBXNativeTarget "SpaceInvaders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D66D850515F7ED7400F1F037 /* Debug */,
+				D66D850615F7ED7400F1F037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D66D850715F7ED7400F1F037 /* Build configuration list for PBXNativeTarget "SpaceInvadersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D66D850815F7ED7400F1F037 /* Debug */,
+				D66D850915F7ED7400F1F037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D66D84C515F7ED7400F1F037 /* Project object */;
+}
