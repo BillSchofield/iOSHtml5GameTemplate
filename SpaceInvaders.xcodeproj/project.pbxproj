@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D653F6AD15FEBD190013801B /* touch.js in Resources */ = {isa = PBXBuildFile; fileRef = D653F6AA15FEBD040013801B /* touch.js */; };
 		D66D84D315F7ED7400F1F037 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D66D84D215F7ED7400F1F037 /* UIKit.framework */; };
 		D66D84D515F7ED7400F1F037 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D66D84D415F7ED7400F1F037 /* Foundation.framework */; };
 		D66D84D715F7ED7400F1F037 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D66D84D615F7ED7400F1F037 /* CoreGraphics.framework */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D653F6AA15FEBD040013801B /* touch.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = touch.js; sourceTree = "<group>"; };
 		D66D84CE15F7ED7400F1F037 /* SpaceInvaders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceInvaders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D66D84D215F7ED7400F1F037 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D66D84D415F7ED7400F1F037 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -174,6 +176,7 @@
 		D66D851615F8204A00F1F037 /* htdocs */ = {
 			isa = PBXGroup;
 			children = (
+				D653F6AA15FEBD040013801B /* touch.js */,
 				D66D851715F821E800F1F037 /* invaders.js */,
 				D66D851815F821E800F1F037 /* jquery.min.js */,
 				D66D851915F821E800F1F037 /* test.js */,
@@ -253,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D653F6AD15FEBD190013801B /* touch.js in Resources */,
 				D66D851F15F823E000F1F037 /* invaders.js in Resources */,
 				D66D851E15F823DA00F1F037 /* jquery.min.js in Resources */,
 				D66D851D15F823CE00F1F037 /* test.js in Resources */,
@@ -476,6 +480,7 @@
 				D66D850615F7ED7400F1F037 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D66D850715F7ED7400F1F037 /* Build configuration list for PBXNativeTarget "SpaceInvadersTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +489,7 @@
 				D66D850915F7ED7400F1F037 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
